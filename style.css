@@ -66,36 +66,29 @@ navbar li:hover
 #goods
 { 
   margin: 40px;
+  
 }
 
 .subgoods
-{
-  height: 100px;
-  width: 100px;
-  border-radius: 5%; 
-  display: flex;
-  justify-content: center;
-}
-
-.project1
-{
-  height: auto;
-  width: auto;
+{ 
+    display: flex;
+    justify-content: center;
+    
   
 }
-.project2
+.project1, .project2
 {
-  height: auto;
-  width: auto;
-  
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+    margin-left: 450px;
+    
 }
 img
 {
-    height: 80%;
-    object-fit: contain;
     
+    object-fit: contain;
 }
-
 .goods-title
 {
   font-size: 32px;
@@ -133,10 +126,7 @@ img
   padding: 40px;
   background-color: rgb(216, 216, 193);
 }
-.email {
-	float: right;
-	width: 45%;
-}
+
 
 input[type='text'], select, textarea {
 	background: none;
@@ -171,10 +161,6 @@ input[type='text']:focus, textarea:focus {
 	float: none;
 }
 
-.name {
-	float: left;
-	width: 45%;
-}
 textarea {
 	line-height: 150%;
 	height: 150px;
